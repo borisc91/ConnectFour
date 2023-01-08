@@ -1,0 +1,74 @@
+.playerscore {
+    grid-row: 2;
+  }
+
+  .playeronescore {
+     
+    
+    background-color: white;
+    width: 8.8rem;
+    height: 10rem;
+    text-align: center;
+    padding: 46px 27px 17px;
+    border: 3px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 10px 7px black;
+    
+
+    
+    
+  }
+
+  .fullplayerscore {
+    position: relative;
+    grid-row: 2;
+    background-color: transparent;
+    width: 8.8rem;
+    height: 11.7rem;
+    font-size: 15px;
+    font-weight: bold;
+    
+    h2 {
+        font-weight: 500;
+        font-size: 56px;
+        margin-top: 13px;
+    }
+    
+
+  }
+
+  .onesmiley {
+      position:absolute;
+      top: -22px;
+      left: 50px;
+    
+  }
+
+  .fullplayertwoscore {
+    position: relative;
+    grid-column: 5;
+    grid-row: 2;
+    background-color: transparent;
+    width: 8.8rem;
+    height: 11.7rem;
+    font-size: 15px;
+    font-weight: bold;
+    
+    h2 {
+        font-weight: 500;
+        font-size: 56px;
+        margin-top: 13px;
+    }
+    
+
+  }
+
+
+  @media (max-width: 640px) {
+
+    .fullplayerscore {
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+}

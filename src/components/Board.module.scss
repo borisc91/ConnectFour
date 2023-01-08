@@ -1,0 +1,26 @@
+
+  .circle {
+    border: 3px solid black;
+      height: 50px;
+      width: 50px;
+      cursor: pointer;
+      border-radius: 50%;
+      background-color: #7945FF; 
+  }
+  
+  .circlep1 {
+    background-color: #FD6687;
+  }
+  
+  .circlep2 {
+    background-color: #FFCE67;
+  }
+  
+  
+  
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
